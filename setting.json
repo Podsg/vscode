@@ -1,0 +1,85 @@
+{
+    //Main editor settings
+    
+    "editor.tabSize": 3,
+    "editor.folding": false,
+    "editor.insertSpaces": false,
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": true,
+    "window.zoomLevel": 1,
+   
+
+    //Wrapping
+    "editor.wordWrap": "bounded",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 80,
+
+    //Auto closing tags
+    "html.autoClosingTags": true,
+
+    //Appearance
+    "editor.bracketPairColorization.enabled": false,
+    "editor.glyphMargin": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.activityBar.location": "top",
+    "workbench.productIconTheme": "Default",
+    "window.density.editorTabHeight": "compact",
+    "workbench.colorTheme": "One Monokai",
+    "editor.accessibilitySupport": "off",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Cursor
+    // "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+
+    // Font
+    "editor.fontSize": 14,
+    // "editor.lineHeight": 20,
+    "editor.fontFamily": "MesloLGS Nerd Font Mono",
+    "explorer.confirmDelete": false,
+
+    // Terminal
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    
+
+     
+    //Setting up Pylance and code analysis.
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.importFormat": "absolute",
+    // Enable display of variable typing.
+    // "python.analysis.inlayHints.variableTypes": true,
+    // "python.analysis.inlayHints.functionReturnTypes": true,
+    // "python.analysis.enablePytestSupport": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "aiogram", //here is the library you need
+            "depth": 3,
+            "includeAllSymbols": true
+        },
+        //like this:
+        // {
+        //     "name": "django",
+        //     "depth": 3,
+        //     "includeAllSymbols": true
+        // }
+    ],
+    "workbench.startupEditor": "none",
+
+
+
+
+  
+}
